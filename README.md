@@ -550,19 +550,19 @@ The completed Power BI solution contains **three main dashboard pages**, each de
 
 ### Executive Dashboard
 
-![Executive Dashboard](screenshots/executive_dashboard.png)
+![Executive Dashboard](screenshots/01_executive_dashboard.png)
 
 *Answers: How is NexaMart performing overall — revenue, profit, margin, orders, and top-level trends across regions and time?*
 
 ### Customer & Segment Analysis
 
-![Customer & Segment Analysis](screenshots/customer_segment_analysis.png)
+![Customer & Segment Analysis](screenshots/02_customer_segment_analysis.png)
 
 *Answers: Which customers and customer segments generate the most value and profit for the business?*
 
 ### Product & Category Analysis
 
-![Product & Category Analysis](screenshots/product_category_analysis.png)
+![Product & Category Analysis](screenshots/03_product_category_analysis.png)
 
 *Answers: Which products and categories are the strongest — and weakest — contributors to gross profit and margin?*
 
