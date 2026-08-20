@@ -546,7 +546,7 @@ The completed Power BI solution contains **three main dashboard pages**, each de
 
 ## Dashboard Screenshots
 
-> **Note:** Image filenames below are representative placeholders matching the `screenshots/` folder structure. Replace them with the actual exported filenames if they differ in your repository.
+
 
 ### Executive Dashboard
 
