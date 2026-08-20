@@ -1,0 +1,2049 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}{\f2\fnil\fcharset1 Cambria Math;}{\f3\fnil\fcharset0 Cambria Math;}{\f4\fnil Cambria Math;}}
+{\*\generator Riched20 10.0.19041}{\*\mmathPr\mmathFont2\mwrapIndent1440 }\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs30\lang9 ============================================================\par
+NEXAMART CUSTOMER PROFITABILITY & REVENUE INTELLIGENCE\par
+============================================================\par
+\par
+PROJECT TITLE\par
+\par
+Customer Profitability & Revenue Intelligence\par
+\par
+\par
+COMPANY\par
+\par
+NexaMart\par
+\par
+\par
+INDUSTRY\par
+\par
+Retail\par
+\par
+\par
+PROJECT TYPE\par
+\par
+End-to-End Business Analytics & Customer Profitability Analysis\par
+\par
+\par
+DATA TYPE\par
+\par
+Synthetic Business Transaction Dataset\par
+\par
+\par
+ANALYSIS PERIOD\par
+\par
+January 2023 \f1\endash  December 2025\par
+\par
+\par
+------------------------------------------------------------\par
+1. BUSINESS CONTEXT\par
+------------------------------------------------------------\par
+\par
+NexaMart is a fictional multi-category retail company\par
+operating across multiple regions and sales channels.\par
+\par
+Management wants to better understand revenue performance,\par
+customer value, product profitability, regional performance,\par
+sales channel performance, and the impact of discounts on\par
+profitability.\par
+\par
+The project is designed to simulate a realistic retail\par
+business environment and demonstrate how transactional data\par
+can be transformed into actionable business intelligence.\par
+\par
+\par
+------------------------------------------------------------\par
+2. BUSINESS PROBLEM\par
+------------------------------------------------------------\par
+\par
+Revenue growth does not necessarily translate into\par
+proportional profit growth.\par
+\par
+Management therefore requires a data-driven analytical\par
+framework to understand the drivers of revenue and\par
+profitability across customers, products, categories,\par
+regions, and sales channels.\par
+\par
+The analysis aims to answer the following questions:\par
+\par
+1. Which products generate the most revenue and profit?\par
+\par
+2. Which products and categories have weak profitability?\par
+\par
+3. Which customers contribute the most value?\par
+\par
+4. Which customer segments are the most profitable?\par
+\par
+5. Which regions perform best and worst?\par
+\par
+6. Which sales channels are most profitable?\par
+\par
+7. How do discounts affect profitability and margins?\par
+\par
+8. Where are the biggest opportunities for improving profit?\f0\par
+\par
+\par
+\par
+\par
+\b0\fs22 ------------------------------------------------------------\par
+3. PROJECT OBJECTIVE\par
+------------------------------------------------------------\par
+\par
+Build an end-to-end analytics solution using Python, SQL,\par
+Excel, and Power BI to analyse sales, customers, products,\par
+regions, sales channels, and profitability.\par
+\par
+The project aims to transform transactional data into\par
+actionable business insights and management recommendations.\par
+\par
+\par
+------------------------------------------------------------\par
+4. TECHNOLOGY STACK\par
+------------------------------------------------------------\par
+\par
+Excel\par
+- Raw data storage and inspection\par
+\par
+Python\par
+- Synthetic data generation\par
+- Data preparation\par
+- Data validation\par
+- Feature creation\par
+\par
+SQL\par
+- Data modelling\par
+- Data transformation\par
+- Business queries\par
+- Customer profitability analysis\par
+- Product and category analysis\par
+- Regional and channel analysis\par
+\par
+Power BI\par
+- Data modelling\par
+- DAX calculations\par
+- Interactive dashboards\par
+- KPI analysis\par
+- Business visualisation\par
+\par
+\par
+------------------------------------------------------------\par
+5. ANALYTICAL APPROACH\par
+------------------------------------------------------------\par
+\par
+The project follows an end-to-end analytical workflow:\par
+\par
+Raw Data\par
+    \f2\u8595?\f0\par
+Python Data Generation & Preparation\par
+    \f2\u8595?\f0\par
+Data Cleaning\par
+    \f2\u8595?\f0\par
+Data Validation\par
+    \f2\u8595?\f0\par
+Exploratory Analysis\par
+    \f2\u8595?\f0\par
+SQL Data Modelling & Business Analysis\par
+    \f2\u8595?\f0\par
+Business Metrics\par
+    \f2\u8595?\f0\par
+Power BI Data Model & DAX\par
+    \f2\u8595?\f0\par
+Interactive Dashboard\par
+    \f2\u8595?\f0\par
+Business Insights\par
+    \f2\u8595?\f0\par
+Management Recommendations\par
+\par
+\par
+\par
+\f3 ------------------------------------------------------------\f0\par
+6\f3 . \f0 DATASET\f3  \f0 DESIGN\par
+\f3 ------------------------------------------------------------\f0\par
+\par
+Dataset\f3  \f0 Type\f3 :\f0\par
+Synthetic\f3  \f0 business\f3  \f0 transaction\f3  \f0 dataset\par
+\par
+Company\f3 :\f0\par
+NexaMart\par
+\par
+Time\f3  \f0 Period\f3 :\f0\par
+January\f3  \f0 2023\f3  \f2\endash\f3  \f0 December\f3  \f0 2025\par
+\par
+Orders\f3 :\f0\par
+10\f3 ,\f0 000\f3  \f0 transactions\par
+\par
+Customers\f3 :\f0\par
+1\f3 ,\f0 000\f3  \f0 customers\par
+\par
+Products\f3 :\f0\par
+50\f3  \f0 products\par
+\par
+Regions\f3 :\f0\par
+North\f3 , \f0 South\f3 , \f0 East\f3 , \f0 West\par
+\par
+Sales\f3  \f0 Channels\f3 :\f0\par
+Online\f3 , \f0 Store\par
+\par
+Customer\f3  \f0 Segments\f3 :\f0\par
+Consumer\f3 , \f0 Small\f3  \f0 Business\f3 , \f0 Corporate\par
+\par
+\par
+PURPOSE\par
+\par
+The\f3  \f0 dataset\f3  \f0 was\f3  \f0 designed\f3  \f0 to\f3  \f0 create\f3  \f0 a\f3  \f0 realistic\f3  \f0 retail\par
+business\f3  \f0 environment\f3  \f0 for\f3  \f0 analysing\f3 :\f0\par
+\par
+\f3 - \f0 Revenue\par
+\f3 - \f0 Gross\f3  \f0 profit\par
+\f3 - \f0 Gross\f3  \f0 margin\par
+\f3 - \f0 Customer\f3  \f0 value\par
+\f3 - \f0 Customer\f3  \f0 profitability\par
+\f3 - \f0 Product\f3  \f0 performance\par
+\f3 - \f0 Category\f3  \f0 performance\par
+\f3 - \f0 Regional\f3  \f0 performance\par
+\f3 - \f0 Sales\f3  \f0 channel\f3  \f0 performance\par
+\f3 - \f0 Discount\f3  \f0 impact\par
+\par
+\f3 ------------------------------------------------------------\f0\par
+7\f3 . \f0 CUSTOMER\f3  \f0 DESIGN\par
+\f3 ------------------------------------------------------------\f0\par
+\par
+Total\f3  \f0 Customers\f3 :\f0\par
+1\f3 ,\f0 000\par
+\par
+\par
+CUSTOMER\f3  \f0 SEGMENTS\par
+\par
+\f3 - \f0 Consumer\par
+\f3 - \f0 Small\f3  \f0 Business\par
+\f3 - \f0 Corporate\par
+\par
+\par
+GEOGRAPHIC\f3  \f0 COVERAGE\par
+\par
+States\f3  \f0 represented\f3  \f0 in\f3  \f0 the\f3  \f0 dataset\f3  \f0 include\f3 :\f0\par
+\par
+\f3 - \f0 West\f3  \f0 Bengal\par
+\f3 - \f0 Maharashtra\par
+\f3 - \f0 Karnataka\par
+\f3 - \f0 Tamil\f3  \f0 Nadu\par
+\f3 - \f0 Delhi\par
+\f3 - \f0 Telangana\par
+\f3 - \f0 Gujarat\par
+\f3 - \f0 Uttar\f3  \f0 Pradesh\par
+\par
+\par
+BUSINESS\f3  \f0 REGIONS\par
+\par
+\f3 - \f0 North\par
+\f3 - \f0 South\par
+\f3 - \f0 East\par
+\f3 - \f0 West\par
+\par
+\par
+CUSTOMER\f3  \f0 ID\f3  \f0 STRUCTURE\par
+\par
+CUS0001\f3  \f2\endash  CUS1000\par
+\par
+\par
+CUSTOMER ACQUISITION PERIOD\par
+\par
+January 2021 \endash  December 2025\par
+\par
+\par
+CUSTOMER BEHAVIOUR DESIGN\par
+\par
+The synthetic dataset was designed to create differences\par
+in purchasing behaviour across customer segments.\par
+\par
+Consumer customers were designed to generally have smaller\par
+order values and more variable purchasing behaviour.\par
+\par
+Small Business customers were designed to generally have\par
+moderate order values and more regular purchasing behaviour.\par
+\par
+Corporate customers were designed to generally have larger\par
+order values and higher purchasing frequency.\par
+\par
+\par
+OBSERVED ORDER DISTRIBUTION\par
+\par
+The generated dataset contains 10,000 orders distributed\par
+across customer segments as follows:\par
+\par
+Consumer:\par
+3,543 orders\par
+\par
+Corporate:\par
+3,478 orders\par
+\par
+Small Business:\par
+2,979 orders\par
+\par
+Note:\par
+These figures represent ORDER distribution, not the\par
+percentage distribution of customers.\par
+\par
+------------------------------------------------------------\par
+8. ANALYTICAL ARCHITECTURE\par
+------------------------------------------------------------\par
+\par
+                         NEXAMART\par
+                            \u9474?\par
+                            \u9660?\par
+                 \u9484?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\par
+                 \u9474?       PYTHON        \u9474?\par
+                 \u9474?                     \u9474?\par
+                 \u9474? Data Generation     \u9474?\par
+                 \u9474? Data Preparation    \u9474?\par
+                 \u9474? Validation          \u9474?\par
+                 \u9474? Feature Creation    \u9474?\par
+                 \u9492?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\par
+                            \u9474?\par
+                            \u9660?\par
+                 \u9484?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\par
+                 \u9474?       EXCEL        \u9474?\par
+                 \u9474?                     \u9474?\par
+                 \u9474? Raw Dataset         \u9474?\par
+                 \u9474? Data Inspection     \u9474?\par
+                 \u9492?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\par
+                            \u9474?\par
+                            \u9660?\par
+                 \u9484?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\par
+                 \u9474?        SQL         \u9474?\par
+                 \u9474?                     \u9474?\par
+                 \u9474? Data Modelling      \u9474?\par
+                 \u9474? Business Queries    \u9474?\par
+                 \u9474? KPI Analysis        \u9474?\par
+                 \u9474? Customer Analysis   \u9474?\par
+                 \u9474? Product Analysis    \u9474?\par
+                 \u9492?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\par
+                            \u9474?\par
+                            \u9660?\par
+                 \u9484?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\par
+                 \u9474?      POWER BI      \u9474?\par
+                 \u9474?                     \u9474?\par
+                 \u9474? Data Model          \u9474?\par
+                 \u9474? DAX                 \u9474?\par
+                 \u9474? KPIs                \u9474?\par
+                 \u9474? Interactive Filters \u9474?\par
+                 \u9474? Dashboards          \u9474?\par
+                 \u9492?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9516?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\par
+                            \u9474?\par
+                            \u9660?\par
+                 \u9484?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9488?\par
+                 \u9474?  BUSINESS INSIGHTS \u9474?\par
+                 \u9474?                     \u9474?\par
+                 \u9474? Findings            \u9474?\par
+                 \u9474? Recommendations     \u9474?\par
+                 \u9492?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\f0\lang9\par
+\par
+\f4\par
+\par
+\f0\lang9 ------------------------------------------------------------\par
+9. DATA STRUCTURE & TABLE ARCHITECTURE\par
+------------------------------------------------------------\par
+\par
+The NexaMart analytical environment is built around\par
+transaction-level retail data.\par
+\par
+The primary profitability dataset contains order-level\par
+records linking customers, products, transactions, pricing,\par
+discounts, costs, revenue, and profitability.\par
+\par
+The data structure supports analysis at multiple levels:\par
+\par
+- Order\par
+- Customer\par
+- Customer Segment\par
+- Product\par
+- Category\par
+- Subcategory\par
+- Brand\par
+- Region\par
+- State\par
+- Sales Channel\par
+- Time\par
+\par
+\par
+------------------------------------------------------------\par
+9.1 PRIMARY FACT TABLE\par
+------------------------------------------------------------\par
+\par
+Table:\par
+\par
+fact_customer_profitability\par
+\par
+\par
+PURPOSE\par
+\par
+The fact_customer_profitability table contains transaction-\par
+level customer profitability information.\par
+\par
+Each record represents an order-level transaction and\par
+contains customer, product, sales, cost, discount, revenue,\par
+and profitability attributes.\par
+\par
+\par
+KEY IDENTIFIER\par
+\par
+Order_ID\par
+\par
+\par
+CUSTOMER ATTRIBUTES\par
+\par
+- Customer_ID\par
+- Customer_Name\par
+- Customer_Segment\par
+- Customer_Since\par
+- Customer_Tenure_Days\par
+- Customer_Tenure_Years\par
+\par
+\par
+GEOGRAPHIC ATTRIBUTES\par
+\par
+- City\par
+- State\par
+- Region\par
+\par
+\par
+PRODUCT ATTRIBUTES\par
+\par
+- Product_ID\par
+- Product_Name\par
+- Category\par
+- Subcategory\par
+- Brand\par
+\par
+\par
+TIME ATTRIBUTES\par
+\par
+- Order_Date\par
+- Year\par
+- Quarter\par
+- Month\par
+- Month_Name\par
+- Year_Month\par
+- Day_Name\par
+\par
+\par
+SALES ATTRIBUTES\par
+\par
+- Sales_Channel\par
+- Quantity\par
+- Unit_Price\par
+\par
+\par
+DISCOUNT ATTRIBUTES\par
+\par
+- Discount\par
+- Discount_Percent\par
+- Discount_Amount\par
+- Discount_Per_Unit\par
+\par
+\par
+FINANCIAL ATTRIBUTES\par
+\par
+- Unit_Cost\par
+- Gross_Sales\par
+- Revenue\par
+- Revenue_Per_Unit\par
+- COGS\par
+- Gross_Profit\par
+- Profit_Per_Unit\par
+- Gross_Margin\par
+\par
+\par
+------------------------------------------------------------\par
+9.2 CUSTOMER PROFITABILITY ANALYTICAL VIEW\par
+------------------------------------------------------------\par
+\par
+Analytical View:\par
+\par
+nexamart_analytics vw_customer_profitability\par
+\par
+\par
+PURPOSE\par
+\par
+The customer profitability analytical view is used to\par
+support customer-level profitability analysis and Power BI\par
+visualisation.\par
+\par
+It provides the analytical fields required to evaluate\par
+customer revenue contribution, gross profit, margin,\par
+customer segment performance, regional performance, and\par
+other customer-related business metrics.\par
+\par
+\par
+KEY ANALYTICAL DIMENSIONS\par
+\par
+- Customer\par
+- Customer Segment\par
+- Region\par
+- State\par
+- Product\par
+- Category\par
+- Sales Channel\par
+- Time\par
+\par
+\par
+KEY PROFITABILITY METRICS\par
+\par
+- Revenue\par
+- COGS\par
+- Gross Profit\par
+- Gross Margin\par
+- Quantity\par
+- Discount Amount\par
+\par
+\par
+------------------------------------------------------------\par
+9.3 DATA GRANULARITY\par
+------------------------------------------------------------\par
+\par
+The primary transaction dataset is maintained at the\par
+order level.\par
+\par
+Order_ID is the primary transaction identifier.\par
+\par
+Because multiple transactions can involve the same\par
+customer or product, customer-level and product-level\par
+metrics must use appropriate aggregation logic.\par
+\par
+For example:\par
+\par
+Customer Count:\par
+Distinct Customer_ID\par
+\par
+Product Count:\par
+Distinct Product_ID\par
+\par
+Order Count:\par
+Distinct Order_ID\par
+\par
+Revenue:\par
+Sum of Revenue\par
+\par
+Gross Profit:\par
+Sum of Gross_Profit\par
+\par
+Gross Margin:\par
+Gross Profit \'f7 Revenue\par
+\par
+\par
+------------------------------------------------------------\par
+9.4 ANALYTICAL DIMENSIONS\par
+------------------------------------------------------------\par
+\par
+The dataset supports analysis across the following\par
+dimensions:\par
+\par
+CUSTOMER\par
+\par
+Customer_ID\par
+Customer_Name\par
+Customer_Segment\par
+Customer_Tenure\par
+\par
+\par
+PRODUCT\par
+\par
+Product_ID\par
+Product_Name\par
+Category\par
+Subcategory\par
+Brand\par
+\par
+\par
+GEOGRAPHY\par
+\par
+City\par
+State\par
+Region\par
+\par
+\par
+TIME\par
+\par
+Order_Date\par
+Year\par
+Quarter\par
+Month\par
+Month_Name\par
+Year_Month\par
+\par
+\par
+CHANNEL\par
+\par
+Sales_Channel\par
+\par
+\par
+------------------------------------------------------------\par
+9.5 DATA MODELING PRINCIPLE\par
+------------------------------------------------------------\par
+\par
+The Power BI model is designed so that business dimensions\par
+can filter the relevant analytical data through appropriate\par
+relationships and filter paths.\par
+\par
+Particular attention was given to Region filtering because\par
+different analytical views may contain overlapping business\par
+dimensions.\par
+\par
+The Region slicer was tested to ensure that regional\par
+selections propagate correctly to the relevant dashboard\par
+visualisations.\par
+\par
+Similarly, customer segment and sales channel filters were\par
+tested to confirm appropriate interactive behaviour.\par
+\par
+------------------------------------------------------------\par
+10. PYTHON DATA GENERATION & PREPARATION\par
+------------------------------------------------------------\par
+\par
+Python was used to generate the synthetic NexaMart retail\par
+dataset and create a realistic transactional environment\par
+for profitability analysis.\par
+\par
+The objective of the Python stage was to generate consistent\par
+customer, product, and order-level data with realistic\par
+relationships between business entities.\par
+\par
+\par
+------------------------------------------------------------\par
+10.1 PYTHON ENVIRONMENT\par
+------------------------------------------------------------\par
+\par
+Programming Language:\par
+\par
+Python\par
+\par
+Main libraries used:\par
+\par
+- pandas\par
+- numpy\par
+- Faker\par
+- openpyxl\par
+- matplotlib\par
+\par
+\par
+------------------------------------------------------------\par
+10.2 DATA GENERATION COMPONENTS\par
+------------------------------------------------------------\par
+\par
+The dataset was generated through separate Python processes\par
+for the major business entities.\par
+\par
+CUSTOMERS\par
+\par
+Number of customers:\par
+1,000\par
+\par
+Customer attributes include:\par
+\par
+- Customer_ID\par
+- Customer_Name\par
+- Customer_Segment\par
+- Customer_Since\par
+- Customer location\par
+- State\par
+- Region\par
+- Customer tenure\par
+\par
+\par
+PRODUCTS\par
+\par
+Number of products:\par
+50\par
+\par
+Product attributes include:\par
+\par
+- Product_ID\par
+- Product_Name\par
+- Category\par
+- Subcategory\par
+- Brand\par
+- Unit_Price\par
+- Unit_Cost\par
+\par
+\par
+ORDERS\par
+\par
+Number of orders:\par
+10,000\par
+\par
+Order attributes include:\par
+\par
+- Order_ID\par
+- Order_Date\par
+- Customer_ID\par
+- Product_ID\par
+- Quantity\par
+- Sales_Channel\par
+- Discount\par
+- Revenue\par
+- COGS\par
+- Gross_Profit\par
+- Gross_Margin\par
+\par
+\par
+------------------------------------------------------------\par
+10.3 DATA GENERATION LOGIC\par
+------------------------------------------------------------\par
+\par
+The synthetic data was designed to simulate realistic retail\par
+business behaviour rather than generating completely random\par
+independent observations.\par
+\par
+Relationships were established between:\par
+\par
+Customer \f2\u8594? Orders\par
+\par
+Product \u8594? Orders\par
+\par
+Customer Segment \u8594? Customer Behaviour\par
+\par
+Product \u8594? Category / Subcategory / Brand\par
+\par
+State \u8594? Region\par
+\par
+Order \u8594? Revenue / Cost / Profitability\par
+\par
+\par
+------------------------------------------------------------\par
+10.4 CUSTOMER BEHAVIOUR DESIGN\par
+------------------------------------------------------------\par
+\par
+Different customer segments were assigned different\par
+behavioural characteristics.\par
+\par
+Consumer customers were designed to generally exhibit:\par
+\par
+- Smaller order values\par
+- More variable purchasing frequency\par
+\par
+Small Business customers were designed to generally exhibit:\par
+\par
+- Moderate order values\par
+- More regular purchasing behaviour\par
+\par
+Corporate customers were designed to generally exhibit:\par
+\par
+- Larger order values\par
+- Higher purchasing frequency\par
+\par
+\par
+These behavioural rules were introduced to create meaningful\par
+variation for customer and segment profitability analysis.\par
+\par
+\par
+------------------------------------------------------------\par
+10.5 PRODUCT AND PRICING LOGIC\par
+------------------------------------------------------------\par
+\par
+Products were assigned:\par
+\par
+- Categories\par
+- Subcategories\par
+- Brands\par
+- Unit prices\par
+- Unit costs\par
+\par
+Order-level sales values were then generated using quantity\par
+and product pricing.\par
+\par
+Gross Sales were derived from:\par
+\par
+Quantity \f3\'d7 Unit Price\par
+\par
+\par
+------------------------------------------------------------\par
+10.6 DISCOUNT LOGIC\par
+------------------------------------------------------------\par
+\par
+Discount-related variables were included to allow analysis\par
+of the relationship between discounting and profitability.\par
+\par
+The dataset contains:\par
+\par
+- Discount\par
+- Discount_Percent\par
+- Discount_Amount\par
+- Discount_Per_Unit\par
+\par
+Discounts affect the final revenue generated by a transaction\par
+and therefore influence gross profit and gross margin.\par
+\par
+\par
+------------------------------------------------------------\par
+10.7 REVENUE AND PROFITABILITY LOGIC\par
+------------------------------------------------------------\par
+\par
+The core financial relationships used in the dataset are:\par
+\par
+Gross Sales\par
+\par
+    = Quantity \'d7 Unit Price\par
+\par
+\par
+Revenue\par
+\par
+    = Gross Sales \u8722? Discount Amount\par
+\par
+\par
+COGS\par
+\par
+    = Quantity \'d7 Unit Cost\par
+\par
+\par
+Gross Profit\par
+\par
+    = Revenue \u8722? COGS\par
+\par
+\par
+Gross Margin\par
+\par
+    = Gross Profit \'f7 Revenue\par
+\par
+\par
+These relationships provide the foundation for the\par
+profitability analysis performed in SQL and Power BI.\par
+\par
+\par
+------------------------------------------------------------\par
+10.8 DATA VALIDATION\par
+------------------------------------------------------------\par
+\par
+After generation, the dataset was validated to confirm that\par
+the generated records were internally consistent.\par
+\par
+Validation included checking:\par
+\par
+- Number of customers\par
+- Number of products\par
+- Number of orders\par
+- Customer segment distribution\par
+- Regional distribution\par
+- Sales channel distribution\par
+- Revenue calculations\par
+- COGS calculations\par
+- Gross profit calculations\par
+- Gross margin calculations\par
+- Duplicate transaction identifiers\par
+- Missing or invalid values\par
+\par
+\par
+------------------------------------------------------------\par
+10.9 GENERATED DATASET SUMMARY\par
+------------------------------------------------------------\par
+\par
+The generated dataset contains:\par
+\par
+Customers:\par
+1,000\par
+\par
+Products:\par
+50\par
+\par
+Orders:\par
+10,000\par
+\par
+\par
+ORDER DISTRIBUTION BY CUSTOMER SEGMENT\par
+\par
+Consumer:\par
+3,543 orders\par
+\par
+Corporate:\par
+3,478 orders\par
+\par
+Small Business:\par
+2,979 orders\par
+\par
+\par
+ORDER DISTRIBUTION BY REGION\par
+\par
+South:\par
+3,864 orders\par
+\par
+North:\par
+2,570 orders\par
+\par
+West:\par
+2,333 orders\par
+\par
+East:\par
+1,233 orders\par
+\par
+\par
+ORDER DISTRIBUTION BY SALES CHANNEL\par
+\par
+Online:\par
+5,388 orders\par
+\par
+Store:\par
+4,612 orders\par
+\par
+\par
+------------------------------------------------------------\par
+10.10 INITIAL FINANCIAL VALIDATION\par
+------------------------------------------------------------\par
+\par
+The initial dataset-level financial validation produced\par
+approximately:\par
+\par
+Gross Sales:\par
+\u8377?190.37 million\par
+\par
+Discount Amount:\par
+\u8377?19.53 million\par
+\par
+Revenue:\par
+\u8377?170.85 million\par
+\par
+COGS:\par
+\u8377?124.68 million\par
+\par
+Gross Profit:\par
+\u8377?46.17 million\par
+\par
+Gross Margin:\par
+27.02%\par
+\par
+\par
+Note:\par
+\par
+These values represent the initial generated dataset\par
+summary. Power BI figures may vary slightly depending on\par
+the analytical table, aggregation level, relationships,\par
+filters, or calculation context used in the final model.\par
+\par
+------------------------------------------------------------\par
+11. SQL DATA PROCESSING & ANALYSIS\par
+------------------------------------------------------------\par
+\par
+SQL was used as the analytical layer between the raw\par
+transactional data and the Power BI reporting environment.\par
+\par
+The SQL stage focused on transforming transaction-level\par
+data into structured analytical views that could support\par
+customer, product, segment, regional, and profitability\par
+analysis.\par
+\par
+\par
+------------------------------------------------------------\par
+11.1 OBJECTIVES OF THE SQL LAYER\par
+------------------------------------------------------------\par
+\par
+The SQL analysis was designed to:\par
+\par
+- Validate the raw transactional data\par
+- Organise business entities and attributes\par
+- Aggregate transaction-level information\par
+- Calculate business metrics\par
+- Analyse customer profitability\par
+- Analyse product and category performance\par
+- Analyse regional performance\par
+- Analyse customer segment performance\par
+- Analyse sales channel performance\par
+- Prepare analytical views for Power BI\par
+\par
+\par
+------------------------------------------------------------\par
+11.2 DATA VALIDATION USING SQL\par
+------------------------------------------------------------\par
+\par
+SQL validation was used to check the integrity and\par
+consistency of the transactional dataset.\par
+\par
+Validation areas included:\par
+\par
+- Total number of orders\par
+- Unique customers\par
+- Unique products\par
+- Duplicate Order_ID values\par
+- Missing values\par
+- Customer segment distribution\par
+- Regional distribution\par
+- Sales channel distribution\par
+- Revenue totals\par
+- COGS totals\par
+- Gross profit totals\par
+\par
+\par
+------------------------------------------------------------\par
+11.3 CORE FINANCIAL CALCULATIONS\par
+------------------------------------------------------------\par
+\par
+The SQL analysis uses the underlying financial relationships\par
+defined in the transactional dataset.\par
+\par
+Gross Sales:\par
+\par
+Quantity \'d7 Unit Price\par
+\par
+\par
+Revenue:\par
+\par
+Gross Sales \u8722? Discount Amount\par
+\par
+\par
+COGS:\par
+\par
+Quantity \'d7 Unit Cost\par
+\par
+\par
+Gross Profit:\par
+\par
+Revenue \u8722? COGS\par
+\par
+\par
+Gross Margin:\par
+\par
+Gross Profit \'f7 Revenue\par
+\par
+\par
+These calculations provide consistent financial definitions\par
+across the analytical views and Power BI reporting layer.\par
+\par
+\par
+------------------------------------------------------------\par
+11.4 CUSTOMER PROFITABILITY ANALYSIS\par
+------------------------------------------------------------\par
+\par
+SQL was used to aggregate transaction-level information at\par
+the customer level.\par
+\par
+Customer-level analysis includes:\par
+\par
+- Customer revenue\par
+- Customer gross profit\par
+- Customer gross margin\par
+- Order count\par
+- Quantity purchased\par
+- Discount amount\par
+- Customer segment\par
+- Region\par
+- Sales channel\par
+\par
+This enables identification of:\par
+\par
+- High-value customers\par
+- High-profit customers\par
+- High-revenue but low-margin customers\par
+- Low-profit customers\par
+- Customer concentration\par
+- Segment-level customer patterns\par
+\par
+\par
+------------------------------------------------------------\par
+11.5 CUSTOMER SEGMENT ANALYSIS\par
+------------------------------------------------------------\par
+\par
+The customer dataset was analysed across:\par
+\par
+- Consumer\par
+- Small Business\par
+- Corporate\par
+\par
+Key metrics include:\par
+\par
+- Revenue\par
+- Gross Profit\par
+- Gross Margin\par
+- Number of Customers\par
+- Number of Orders\par
+- Quantity\par
+- Average order-related performance\par
+\par
+The objective is to determine which customer segments\par
+generate the greatest economic value and whether revenue\par
+leadership corresponds to profitability leadership.\par
+\par
+\par
+------------------------------------------------------------\par
+11.6 PRODUCT AND CATEGORY ANALYSIS\par
+------------------------------------------------------------\par
+\par
+SQL analysis was used to evaluate product and category\par
+performance.\par
+\par
+The analysis covers:\par
+\par
+- Product revenue\par
+- Product gross profit\par
+- Product gross margin\par
+- Category revenue\par
+- Category gross profit\par
+- Category gross margin\par
+- Quantity sold\par
+- Discount amount\par
+\par
+This allows products and categories to be compared based on\par
+both revenue generation and profitability.\par
+\par
+\par
+------------------------------------------------------------\par
+11.7 REGIONAL ANALYSIS\par
+------------------------------------------------------------\par
+\par
+Regional performance was analysed across:\par
+\par
+- North\par
+- South\par
+- East\par
+- West\par
+\par
+Key metrics include:\par
+\par
+- Revenue\par
+- Gross Profit\par
+- Gross Margin\par
+- Orders\par
+- Quantity\par
+- Customers\par
+\par
+Regional analysis helps identify geographic differences in\par
+business performance and profitability.\par
+\par
+\par
+------------------------------------------------------------\par
+11.8 SALES CHANNEL ANALYSIS\par
+------------------------------------------------------------\par
+\par
+The dataset contains two sales channels:\par
+\par
+- Online\par
+- Store\par
+\par
+SQL analysis enables comparison of the channels using:\par
+\par
+- Revenue\par
+- Gross Profit\par
+- Gross Margin\par
+- Orders\par
+- Quantity\par
+- Discount Amount\par
+\par
+This provides a basis for evaluating channel-level\par
+profitability and performance.\par
+\par
+\par
+------------------------------------------------------------\par
+11.9 TIME-BASED ANALYSIS\par
+------------------------------------------------------------\par
+\par
+The transaction data contains multiple time attributes:\par
+\par
+- Order_Date\par
+- Year\par
+- Quarter\par
+- Month\par
+- Month_Name\par
+- Year_Month\par
+\par
+These fields support:\par
+\par
+- Monthly revenue analysis\par
+- Monthly gross profit analysis\par
+- Monthly order trends\par
+- Seasonal performance analysis\par
+- Year-over-year comparisons\par
+\par
+\par
+------------------------------------------------------------\par
+11.10 CUSTOMER PROFITABILITY ANALYTICAL VIEW\par
+------------------------------------------------------------\par
+\par
+One of the key analytical outputs used by Power BI is:\par
+\par
+nexamart_analytics vw_customer_profitability\par
+\par
+\par
+PURPOSE\par
+\par
+The view consolidates customer, product, geographic,\par
+transactional, and profitability attributes into an\par
+analytical structure suitable for reporting and customer\par
+profitability analysis.\par
+\par
+The view supports analysis across:\par
+\par
+- Customer\par
+- Customer Segment\par
+- Product\par
+- Category\par
+- Region\par
+- State\par
+- Sales Channel\par
+- Time\par
+\par
+\par
+------------------------------------------------------------\par
+11.11 SQL TO POWER BI WORKFLOW\par
+------------------------------------------------------------\par
+\par
+The SQL layer prepares and structures the data before it is\par
+used for dashboard analysis.\par
+\par
+The overall workflow is:\par
+\par
+Raw Transaction Data\par
+        \u8595?\par
+SQL Validation\par
+        \u8595?\par
+SQL Transformation / Aggregation\par
+        \u8595?\par
+Analytical Views\par
+        \u8595?\par
+Power BI Data Model\par
+        \u8595?\par
+DAX Measures\par
+        \u8595?\par
+Interactive Dashboard\par
+\par
+\par
+------------------------------------------------------------\par
+11.12 SQL ANALYTICAL PRINCIPLE\par
+------------------------------------------------------------\par
+\par
+The SQL layer separates data preparation and analytical\par
+aggregation from dashboard visualisation.\par
+\par
+This improves consistency by allowing Power BI to consume\par
+structured analytical data rather than relying entirely on\par
+visual-level calculations.\par
+\par
+The approach also makes the analytical logic easier to\par
+validate, reproduce, and explain during business analysis\par
+and technical interviews.\par
+\par
+------------------------------------------------------------\par
+12. POWER BI DATA MODEL, DAX & DASHBOARD\par
+------------------------------------------------------------\par
+\par
+Power BI was used as the final business intelligence and\par
+visualisation layer of the NexaMart analytics solution.\par
+\par
+The Power BI environment connects the analytical data with\par
+business metrics, interactive filters, visualisations, and\par
+management-oriented dashboards.\par
+\par
+\par
+------------------------------------------------------------\par
+12.1 POWER BI OBJECTIVES\par
+------------------------------------------------------------\par
+\par
+The Power BI solution was designed to:\par
+\par
+- Monitor overall business performance\par
+- Analyse revenue and profitability\par
+- Compare customer segments\par
+- Evaluate customer contribution\par
+- Analyse product and category performance\par
+- Compare regional performance\par
+- Compare sales channels\par
+- Analyse discount and margin behaviour\par
+- Provide interactive filtering\par
+- Support management decision-making\par
+\par
+\par
+------------------------------------------------------------\par
+12.2 DATA MODEL\par
+------------------------------------------------------------\par
+\par
+The Power BI model incorporates the analytical datasets\par
+prepared during the SQL stage.\par
+\par
+The model is designed to support analysis across:\par
+\par
+- Customers\par
+- Products\par
+- Categories\par
+- Regions\par
+- Sales Channels\par
+- Time\par
+- Transactions\par
+- Profitability\par
+\par
+\par
+The model was validated to ensure that relationships and\par
+filter propagation produced consistent analytical results.\par
+\par
+\par
+------------------------------------------------------------\par
+12.3 CORE DAX MEASURES\par
+------------------------------------------------------------\par
+\par
+DAX measures were used to calculate key business metrics\par
+dynamically within Power BI.\par
+\par
+Core measures include:\par
+\par
+Revenue\par
+\par
+Gross Profit\par
+\par
+Gross Margin\par
+\par
+Gross Sales\par
+\par
+Discount Amount\par
+\par
+COGS\par
+\par
+Order Count\par
+\par
+Customer Count\par
+\par
+Product Count\par
+\par
+Average Order Value\par
+\par
+\par
+These measures respond dynamically to report filters and\par
+slicers.\par
+\par
+\par
+------------------------------------------------------------\par
+12.4 REVENUE MEASURE\par
+------------------------------------------------------------\par
+\par
+Revenue represents the total value of sales after applying\par
+discounts.\par
+\par
+Conceptually:\par
+\par
+Revenue = SUM(Revenue)\par
+\par
+\par
+The measure is evaluated dynamically according to the\par
+selected filters such as:\par
+\par
+- Date\par
+- Region\par
+- Customer Segment\par
+- Product\par
+- Category\par
+- Sales Channel\par
+\par
+\par
+------------------------------------------------------------\par
+12.5 GROSS PROFIT MEASURE\par
+------------------------------------------------------------\par
+\par
+Gross Profit represents the value remaining after deducting\par
+cost of goods sold from revenue.\par
+\par
+Conceptually:\par
+\par
+Gross Profit = Revenue \u8722? COGS\par
+\par
+\par
+The measure allows profitability to be analysed across\par
+different business dimensions.\par
+\par
+\par
+------------------------------------------------------------\par
+12.6 GROSS MARGIN MEASURE\par
+------------------------------------------------------------\par
+\par
+Gross Margin represents gross profit as a percentage of\par
+revenue.\par
+\par
+Conceptually:\par
+\par
+Gross Margin =\par
+Gross Profit \'f7 Revenue\par
+\par
+\par
+Gross Margin is particularly important because revenue alone\par
+does not indicate how efficiently revenue is converted into\par
+profit.\par
+\par
+\par
+------------------------------------------------------------\par
+12.7 INTERACTIVE FILTERING\par
+------------------------------------------------------------\par
+\par
+Interactive slicers were implemented to allow users to\par
+analyse dashboard performance dynamically.\par
+\par
+Key filtering dimensions include:\par
+\par
+- Region\par
+- Customer Segment\par
+- Sales Channel\par
+- Product\par
+- Category\par
+- Time\par
+\par
+\par
+The Region slicer was specifically tested to ensure that\par
+regional selections propagate correctly across the relevant\par
+dashboard visualisations.\par
+\par
+\par
+------------------------------------------------------------\par
+12.8 DASHBOARD PAGE 1\par
+EXECUTIVE DASHBOARD\par
+------------------------------------------------------------\par
+\par
+The Executive Dashboard provides a high-level overview of\par
+NexaMart's business performance.\par
+\par
+The page focuses on:\par
+\par
+- Revenue\par
+- Gross Profit\par
+- Gross Margin\par
+- Orders\par
+- Customer performance\par
+- Product performance\par
+- Regional performance\par
+- Time trends\par
+\par
+The purpose of this page is to allow management to quickly\par
+understand the overall health of the business.\par
+\par
+\par
+------------------------------------------------------------\par
+12.9 DASHBOARD PAGE 2\par
+CUSTOMER & SEGMENT ANALYSIS\par
+------------------------------------------------------------\par
+\par
+The Customer & Segment Analysis page focuses on customer\par
+value and segment-level performance.\par
+\par
+The page analyses:\par
+\par
+- Customer contribution\par
+- Customer profitability\par
+- Customer segments\par
+- Revenue by segment\par
+- Gross profit by segment\par
+- Customer-level performance\par
+- Segment comparisons\par
+\par
+The objective is to identify which customer groups and\par
+individual customers contribute the greatest economic value.\par
+\par
+\par
+------------------------------------------------------------\par
+12.10 DASHBOARD PAGE 3\par
+PRODUCT & CATEGORY ANALYSIS\par
+------------------------------------------------------------\par
+\par
+The Product & Category Analysis page focuses on product\par
+performance and profitability.\par
+\par
+The page analyses:\par
+\par
+- Product revenue\par
+- Product gross profit\par
+- Product profitability\par
+- Category performance\par
+- Quantity sold\par
+- Discount behaviour\par
+- Product-level comparisons\par
+\par
+The objective is to identify high-performing products,\par
+weak-profitability products, and potential opportunities for\par
+pricing or discount optimisation.\par
+\par
+\par
+------------------------------------------------------------\par
+12.11 VISUALISATION APPROACH\par
+------------------------------------------------------------\par
+\par
+Different visualisation types were selected according to the\par
+business question being analysed.\par
+\par
+KPI Cards:\par
+Used for high-level performance metrics.\par
+\par
+Bar / Column Charts:\par
+Used for comparisons between products, categories,\par
+segments, regions, and channels.\par
+\par
+Line Charts:\par
+Used for analysing performance over time.\par
+\par
+Pie / Donut Charts:\par
+Used selectively to show composition or contribution.\par
+\par
+Funnel Charts:\par
+Used where a sequential or contribution-based comparison\par
+provides useful business context.\par
+\par
+Tables:\par
+Used for detailed customer and product-level analysis.\par
+\par
+Slicers:\par
+Used to enable interactive exploration of business\par
+dimensions.\par
+\par
+\par
+------------------------------------------------------------\par
+12.12 DASHBOARD DESIGN PRINCIPLES\par
+------------------------------------------------------------\par
+\par
+The dashboard design follows several principles:\par
+\par
+- Clear visual hierarchy\par
+- Consistent KPI presentation\par
+- Limited visual clutter\par
+- Business-focused titles\par
+- Consistent spacing and alignment\par
+- Interactive filtering\par
+- Consistent formatting\par
+- Focus on actionable comparisons\par
+\par
+\par
+The dashboard was designed for management-level analysis\par
+while retaining sufficient detail for analyst-level\par
+investigation.\par
+\par
+\par
+------------------------------------------------------------\par
+12.13 VALIDATION OF POWER BI RESULTS\par
+------------------------------------------------------------\par
+\par
+Power BI results were compared against source and\par
+analytical data to validate:\par
+\par
+- Revenue\par
+- Gross Profit\par
+- Gross Margin\par
+- Order counts\par
+- Customer counts\par
+- Product counts\par
+- Regional totals\par
+- Segment totals\par
+\par
+Interactive slicers were also tested to ensure that selected\par
+filters produced appropriate changes across relevant\par
+visualisations.\par
+\par
+\par
+------------------------------------------------------------\par
+12.14 POWER BI ANALYTICAL WORKFLOW\par
+------------------------------------------------------------\par
+\par
+SQL Analytical Views\par
+        \u8595?\par
+Power BI Data Import / Connection\par
+        \u8595?\par
+Data Model\par
+        \u8595?\par
+Relationships\par
+        \u8595?\par
+DAX Measures\par
+        \u8595?\par
+Visualisations\par
+        \u8595?\par
+Slicers & Filters\par
+        \u8595?\par
+Interactive Dashboard\par
+        \u8595?\par
+Business Analysis\par
+\par
+------------------------------------------------------------\par
+13. DATA VALIDATION & QUALITY ASSURANCE\par
+------------------------------------------------------------\par
+\par
+Data validation was performed throughout the analytical\par
+workflow to ensure that the dataset, calculations, SQL\par
+outputs, and Power BI results remained consistent.\par
+\par
+Validation was performed at multiple stages:\par
+\par
+1. Python data generation\par
+2. Raw dataset validation\par
+3. SQL validation\par
+4. Financial calculation validation\par
+5. Power BI model validation\par
+6. Dashboard validation\par
+\par
+\par
+------------------------------------------------------------\par
+13.1 PYTHON-LEVEL VALIDATION\par
+------------------------------------------------------------\par
+\par
+The generated dataset was checked after the Python data\par
+generation stage.\par
+\par
+The following checks were performed:\par
+\par
+- Customer record count\par
+- Product record count\par
+- Order record count\par
+- Unique Customer_ID values\par
+- Unique Product_ID values\par
+- Unique Order_ID values\par
+- Missing values\par
+- Invalid values\par
+- Customer-product relationships\par
+- Customer-order relationships\par
+\par
+\par
+Expected dataset volumes:\par
+\par
+Customers:\par
+1,000\par
+\par
+Products:\par
+50\par
+\par
+Orders:\par
+10,000\par
+\par
+\par
+------------------------------------------------------------\par
+13.2 DUPLICATE CHECKS\par
+------------------------------------------------------------\par
+\par
+Unique identifiers were checked to ensure that transaction\par
+and master-data identifiers were consistent.\par
+\par
+Primary validation fields included:\par
+\par
+- Customer_ID\par
+- Product_ID\par
+- Order_ID\par
+\par
+Order_ID was treated as the transaction-level identifier.\par
+\par
+\par
+------------------------------------------------------------\par
+13.3 MISSING VALUE VALIDATION\par
+------------------------------------------------------------\par
+\par
+Important analytical fields were checked for missing or\par
+invalid values.\par
+\par
+Fields reviewed included:\par
+\par
+- Order_ID\par
+- Order_Date\par
+- Customer_ID\par
+- Product_ID\par
+- Quantity\par
+- Unit_Price\par
+- Unit_Cost\par
+- Revenue\par
+- COGS\par
+- Gross_Profit\par
+- Discount\par
+- Region\par
+- Customer_Segment\par
+- Sales_Channel\par
+\par
+\par
+The objective was to prevent missing or invalid values from\par
+distorting business metrics.\par
+\par
+\par
+------------------------------------------------------------\par
+13.4 FINANCIAL CALCULATION VALIDATION\par
+------------------------------------------------------------\par
+\par
+Financial relationships were validated using the underlying\par
+transaction-level calculations.\par
+\par
+The expected relationships are:\par
+\par
+Gross Sales\par
+    = Quantity \'d7 Unit Price\par
+\par
+\par
+Revenue\par
+    = Gross Sales \u8722? Discount Amount\par
+\par
+\par
+COGS\par
+    = Quantity \'d7 Unit Cost\par
+\par
+\par
+Gross Profit\par
+    = Revenue \u8722? COGS\par
+\par
+\par
+Gross Margin\par
+    = Gross Profit \'f7 Revenue\par
+\par
+\par
+These relationships were checked before using the data for\par
+business analysis.\par
+\par
+\par
+------------------------------------------------------------\par
+13.5 DATASET-LEVEL FINANCIAL VALIDATION\par
+------------------------------------------------------------\par
+\par
+The initial generated dataset produced approximately:\par
+\par
+Gross Sales:\par
+\u8377?190.37 million\par
+\par
+Discount Amount:\par
+\u8377?19.53 million\par
+\par
+Revenue:\par
+\u8377?170.85 million\par
+\par
+COGS:\par
+\u8377?124.68 million\par
+\par
+Gross Profit:\par
+\u8377?46.17 million\par
+\par
+Gross Margin:\par
+27.02%\par
+\par
+\par
+These figures were used as an initial benchmark for\par
+subsequent analytical validation.\par
+\par
+\par
+------------------------------------------------------------\par
+13.6 SQL VALIDATION\par
+------------------------------------------------------------\par
+\par
+SQL was used to independently validate key dataset\par
+characteristics and financial totals.\par
+\par
+Validation included:\par
+\par
+- Total orders\par
+- Unique customers\par
+- Unique products\par
+- Revenue\par
+- COGS\par
+- Gross profit\par
+- Customer segment totals\par
+- Regional totals\par
+- Sales channel totals\par
+- Product totals\par
+\par
+\par
+SQL aggregation results were compared against the expected\par
+dataset structure and Python-generated totals.\par
+\par
+\par
+------------------------------------------------------------\par
+13.7 POWER BI VALIDATION\par
+------------------------------------------------------------\par
+\par
+The Power BI model was validated against the underlying\par
+analytical data.\par
+\par
+The following metrics were checked:\par
+\par
+- Revenue\par
+- Gross Profit\par
+- Gross Margin\par
+- Order Count\par
+- Customer Count\par
+- Product Count\par
+\par
+\par
+Visual-level totals were also reviewed to ensure that\par
+aggregations were behaving correctly.\par
+\par
+\par
+------------------------------------------------------------\par
+13.8 FILTER & SLICER VALIDATION\par
+------------------------------------------------------------\par
+\par
+Interactive filtering was tested across the dashboard.\par
+\par
+Particular attention was given to the Region slicer because\par
+regional analysis is required across multiple dashboard\par
+visualisations.\par
+\par
+Additional filtering behaviour was tested using relevant\par
+business dimensions including:\par
+\par
+- Region\par
+- Customer Segment\par
+- Sales Channel\par
+- Product\par
+- Category\par
+- Time\par
+\par
+\par
+The purpose was to confirm that filters changed the\par
+appropriate visuals without producing inconsistent totals.\par
+\par
+\par
+------------------------------------------------------------\par
+13.9 CROSS-SOURCE VALIDATION\par
+------------------------------------------------------------\par
+\par
+The analytical workflow was validated across multiple\par
+layers:\par
+\par
+Python\par
+    \u8595?\par
+SQL\par
+    \u8595?\par
+Power BI\par
+\par
+\par
+Key financial metrics were compared across these layers to\par
+identify potential differences caused by:\par
+\par
+- Aggregation level\par
+- Filter context\par
+- Relationships\par
+- Distinct counts\par
+- Analytical views\par
+- DAX calculation context\par
+\par
+\par
+Where differences appeared, the underlying calculation\par
+logic and data relationships were reviewed.\par
+\par
+\par
+------------------------------------------------------------\par
+13.10 DATA QUALITY PRINCIPLES\par
+------------------------------------------------------------\par
+\par
+The following principles were applied throughout the project:\par
+\par
+1. Validate before visualising.\par
+\par
+2. Use consistent financial definitions.\par
+\par
+3. Distinguish transaction counts from distinct customer\par
+   or product counts.\par
+\par
+4. Validate aggregation logic.\par
+\par
+5. Check filter propagation.\par
+\par
+6. Compare dashboard results with source data.\par
+\par
+7. Avoid interpreting a metric without understanding its\par
+   calculation context.\par
+\par
+\par
+------------------------------------------------------------\par
+13.11 VALIDATION OUTCOME\par
+------------------------------------------------------------\par
+\par
+The validation process established a controlled analytical\par
+workflow in which data was checked before being used for\par
+business interpretation.\par
+\par
+This reduces the risk of presenting incorrect financial\par
+metrics and improves confidence in the final Power BI\par
+dashboard and business recommendations.\par
+\par
+------------------------------------------------------------\par
+14. BUSINESS INSIGHTS\par
+------------------------------------------------------------\par
+\par
+The analysis of NexaMart's transactional data provides\par
+insights into revenue generation, customer value, product\par
+performance, regional performance, sales channels, and\par
+profitability.\par
+\par
+The key findings are organised into the following areas:\par
+\par
+1. Overall Business Performance\par
+2. Customer Performance\par
+3. Customer Segment Performance\par
+4. Product & Category Performance\par
+5. Regional Performance\par
+6. Sales Channel Performance\par
+7. Discount & Profitability Analysis\par
+\par
+\par
+------------------------------------------------------------\par
+14.1 OVERALL BUSINESS PERFORMANCE\par
+------------------------------------------------------------\par
+\par
+Finding:\par
+\par
+[Finding:\par
+\par
+NexaMart generated \u8377?174.38 million in revenue and\par
+\u8377?46.92 million in gross profit across 10,000 orders.\par
+The resulting gross margin was 26.91%, indicating that\par
+approximately \u8377?26.91 of gross profit was generated for\par
+every \u8377?100 of revenue.\par
+\par
+\par
+Evidence:\par
+\par
+Revenue:\par
+\u8377?174.38 million\par
+\par
+Gross Profit:\par
+\u8377?46.92 million\par
+\par
+Gross Margin:\par
+26.91%\par
+\par
+Orders:\par
+10,000\par
+\par
+Customers:\par
+998\par
+\par
+\par
+Business Implication:\par
+\par
+Finding:\par
+\par
+NexaMart generated \u8377?174.38 million in revenue and\par
+\u8377?46.92 million in gross profit across 10,000 orders.\par
+The resulting gross margin was 26.91%, indicating that\par
+approximately \u8377?26.91 of gross profit was generated for\par
+every \u8377?100 of revenue.\par
+\par
+\par
+Evidence:\par
+\par
+Revenue:\par
+\u8377?174.38 million\par
+\par
+Gross Profit:\par
+\u8377?46.92 million\par
+\par
+Gross Margin:\par
+26.91%\par
+\par
+Orders:\par
+10,000\par
+\par
+Customers:\par
+998\par
+\par
+\par
+Business Implication:\par
+\par
+NexaMart demonstrates a substantial revenue base and\par
+positive gross profitability. However, the 26.91% gross\par
+margin indicates that profitability needs to be evaluated\par
+alongside revenue growth.\par
+\par
+Management should therefore assess which customers,\par
+products, regions, and sales channels contribute most\par
+effectively to gross profit rather than evaluating\par
+performance based solely on revenue.\par
+\par
+------------------------------------------------------------\par
+14.2 CUSTOMER PERFORMANCE\par
+------------------------------------------------------------\par
+\par
+Finding:\par
+\par
+[To be completed]\par
+\par
+\par
+Evidence:\par
+\par
+[To be completed]\par
+\par
+\par
+Business Implication:\par
+\par
+[To be completed]\par
+\par
+\par
+------------------------------------------------------------\par
+14.3 CUSTOMER SEGMENT PERFORMANCE\par
+------------------------------------------------------------\par
+\par
+Finding:\par
+\par
+[To be completed]\par
+\par
+\par
+Evidence:\par
+\par
+[To be completed]\par
+\par
+\par
+Business Implication:\par
+\par
+[To be completed]\par
+\par
+\par
+------------------------------------------------------------\par
+14.4 PRODUCT & CATEGORY PERFORMANCE\par
+------------------------------------------------------------\par
+\par
+Finding:\par
+\par
+[To be completed]\par
+\par
+\par
+Evidence:\par
+\par
+[To be completed]\par
+\par
+\par
+Business Implication:\par
+\par
+[To be completed]\par
+\par
+\par
+------------------------------------------------------------\par
+14.5 REGIONAL PERFORMANCE\par
+------------------------------------------------------------\par
+\par
+Finding:\par
+\par
+[To be completed]\par
+\par
+\par
+Evidence:\par
+\par
+[To be completed]\par
+\par
+\par
+Business Implication:\par
+\par
+[To be completed]\par
+\par
+\par
+------------------------------------------------------------\par
+14.6 SALES CHANNEL PERFORMANCE\par
+------------------------------------------------------------\par
+\par
+Finding:\par
+\par
+[To be completed]\par
+\par
+\par
+Evidence:\par
+\par
+[To be completed]\par
+\par
+\par
+Business Implication:\par
+\par
+[To be completed]\par
+\par
+\par
+------------------------------------------------------------\par
+14.7 DISCOUNT & PROFITABILITY ANALYSIS\par
+------------------------------------------------------------\par
+\par
+Finding:\par
+\par
+[To be completed]\par
+\par
+\par
+Evidence:\par
+\par
+[To be completed]\par
+\par
+\par
+Business Implication:\par
+\par
+[To be completed]\f0\lang9\par
+}
+ 
