@@ -3,34 +3,37 @@
 ## End-to-End Business Analytics Project
 
 ![Python](https://img.shields.io/badge/Python-Data%20Generation%20%26%20Analysis-blue)
-![SQL](https://img.shields.io/badge/SQL-Analytics-orange)
-![Power%20BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+![SQL](https://img.shields.io/badge/SQL-Business%20Analytics-orange)
+![Power%20BI](https://img.shields.io/badge/Power%20BI-Interactive%20Dashboard-yellow)
 ![Excel](https://img.shields.io/badge/Excel-Data%20Preparation-green)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)
 
 ---
 
 ## 📌 Project Overview
 
-**NexaMart Customer Profitability & Revenue Intelligence** is an end-to-end retail analytics project designed to transform transactional data into actionable business insights.
+**NexaMart Customer Profitability & Revenue Intelligence** is an end-to-end retail business analytics project designed to transform transactional data into actionable business insights.
 
-The project simulates a multi-category retail company operating across multiple regions, customer segments, and sales channels.
+The project simulates a multi-category retail company operating across multiple regions, customer segments, products, and sales channels.
 
 The analysis focuses on understanding:
 
 - Revenue performance
 - Gross profitability
 - Customer value
-- Customer segment performance
-- Product and category profitability
+- Customer segment profitability
+- Product and category performance
 - Regional performance
 - Sales channel performance
 - Discount impact on profitability
 
-The project demonstrates a complete analytics workflow using **Python, SQL, Excel, and Power BI**.
+The project demonstrates a complete analytics workflow using:
+
+**Python → Excel → SQL → Power BI → Business Insights**
 
 ---
 
-## 🏢 Business Context
+# 🏢 Business Context
 
 NexaMart is a fictional multi-category retail company operating across:
 
@@ -39,20 +42,26 @@ NexaMart is a fictional multi-category retail company operating across:
 - East
 - West
 
-The company sells products across multiple categories through:
+The company sells products through:
 
 - Online
 - Store
 
-Management wants to understand why revenue does not necessarily translate into proportional profitability.
+Customers are divided into:
 
-The objective is therefore to identify the customers, products, regions, channels, and business strategies that contribute most effectively to gross profit.
+- Consumer
+- Small Business
+- Corporate
+
+Management wants to understand why revenue growth does not necessarily translate into proportional profit growth.
+
+The objective is to identify the customers, products, regions, channels, and strategies that contribute most effectively to business profitability.
 
 ---
 
 # 🎯 Business Problem
 
-Management needs a data-driven framework to answer the following questions:
+Management requires a data-driven framework to answer:
 
 1. Which products generate the most revenue and gross profit?
 2. Which products and categories have weak profitability?
@@ -93,6 +102,13 @@ The project uses a **synthetic retail transaction dataset** designed to simulate
 - Home & Lifestyle
 - Office Supplies
 
+### Regions
+
+- North
+- South
+- East
+- West
+
 ### Sales Channels
 
 - Online
@@ -102,17 +118,20 @@ The project uses a **synthetic retail transaction dataset** designed to simulate
 
 # 🛠️ Technology Stack
 
-### Python
+## Python
 
-Used for:
+Python was used for:
 
 - Synthetic data generation
+- Customer generation
+- Product generation
+- Order generation
 - Data preparation
 - Feature creation
 - Data validation
 - Exploratory analysis
 
-Libraries used:
+### Libraries
 
 - Pandas
 - NumPy
@@ -120,62 +139,95 @@ Libraries used:
 - OpenPyXL
 - Matplotlib
 
-### SQL
+---
 
-Used for:
+## SQL
+
+SQL was used as the analytical layer for:
 
 - Data validation
-- Business analysis
-- Aggregation
+- Data aggregation
 - Customer profitability analysis
+- Customer segment analysis
 - Product analysis
 - Category analysis
 - Regional analysis
 - Sales channel analysis
 - Financial KPI calculations
+- Analytical views
 
-### Power BI
+Key business metrics calculated include:
 
-Used for:
+- Revenue
+- Gross Sales
+- Discount Amount
+- COGS
+- Gross Profit
+- Gross Margin
+- Order Count
+- Customer Count
+- Product Count
+
+---
+
+## Power BI
+
+Power BI was used for:
 
 - Data modelling
+- Relationship management
 - DAX measures
 - KPI development
 - Interactive dashboards
 - Slicers
 - Business visualisation
+- Management reporting
 
-### Excel
+The dashboard allows users to dynamically analyse business performance by:
 
-Used for:
+- Region
+- Customer Segment
+- Sales Channel
+- Product
+- Category
+- Time
+
+---
+
+## Excel
+
+Excel was used for:
 
 - Raw data storage
 - Data inspection
 - Dataset review
+- Initial validation
 
 ---
 
 # 🔄 Analytical Workflow
 
 ```text
-Raw Transaction Data
-        ↓
-Python Data Generation
-        ↓
-Data Preparation & Validation
-        ↓
+Synthetic Data Generation
+          ↓
+Python Data Preparation
+          ↓
+Data Validation
+          ↓
 Excel Data Inspection
-        ↓
-SQL Data Analysis
-        ↓
+          ↓
+SQL Data Processing
+          ↓
+Business Analysis
+          ↓
 Analytical Views
-        ↓
+          ↓
 Power BI Data Model
-        ↓
+          ↓
 DAX Measures
-        ↓
+          ↓
 Interactive Dashboards
-        ↓
+          ↓
 Business Insights
-        ↓
+          ↓
 Management Recommendations
